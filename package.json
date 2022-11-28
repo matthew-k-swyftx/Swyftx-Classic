@@ -1,0 +1,26 @@
+{
+  "name": "@mklem92/swyftx-classic",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "dev": "lerna run dev --parallel",
+    "lint": "lerna run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@nrwl/nx-cloud": "latest",
+    "eslint-config-custom": "*",
+    "lerna": "^6.0.3",
+    "nx": "15.2.1",
+    "prettier": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.19"
+}

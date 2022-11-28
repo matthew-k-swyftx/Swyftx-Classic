@@ -1,0 +1,23 @@
+{
+  "name": "@mklem92/swyftx-api",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "TIMING=1 eslint \"**/*.ts*\"",
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "axios": "^1.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "react": "^18.2.0",
+    "tsconfig": "*",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "react-use": "^17.4.0"
+  }
+}
