@@ -26,7 +26,7 @@ const TitleCard: React.FC<PropsWithChildren<Props>> = ({
           {title}
         </Typography>
       </Stack>
-      <Box>{children}</Box>
+      <Box height="calc(100% - 56px)">{children}</Box>
     </Card>
   );
 };

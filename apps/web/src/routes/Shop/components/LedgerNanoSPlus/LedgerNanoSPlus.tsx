@@ -7,30 +7,20 @@ import {
 
 import { TitleCard } from "@mklem92/swyftx-classic-ui";
 
-const LedgerNanoX: React.FC = () => (
-  <TitleCard title="Ledger Nano X" icon={<WalletOutlined />}>
-    <Stack
-      alignItems="center"
-      padding={1}
-      justifyContent="center"
-      bgcolor="#008080"
-    >
-      <Typography color="white" fontSize={14}>
-        Recommended
-      </Typography>
-    </Stack>
+const LedgerNanoSPlus: React.FC = () => (
+  <TitleCard title="Ledger Nano S Plus" icon={<WalletOutlined />}>
     <Stack direction="row" alignItems="center" height="100%">
       <Stack direction="row" alignItems="center" width="100%" marginTop={1}>
         <Box
           component="img"
-          src="/ledger_nano_x.webp"
+          src="/ledger_nano_s_plus.webp"
           width="80px"
           padding={2}
         />
         <Stack padding={2} spacing={1} alignItems="center">
           <Stack direction="row" spacing={0.5} alignItems="center">
             <Typography fontSize={24} fontWeight={500}>
-              A$249
+              A$129
             </Typography>
             <Typography fontSize={12}>Inc GST</Typography>
           </Stack>
@@ -38,7 +28,7 @@ const LedgerNanoX: React.FC = () => (
           <Stack direction="row" spacing={1} alignItems="center">
             <AirplanemodeActiveOutlined />
             <Typography whiteSpace="nowrap" fontSize={12}>
-              Free Shipping (14 - 21 days)
+              ~$25 Shipping (14 - 21 days)
             </Typography>
           </Stack>
 
@@ -48,7 +38,7 @@ const LedgerNanoX: React.FC = () => (
             size="small"
             onClick={() =>
               window.open(
-                "https://shop.ledger.com/products/ledger-nano-x/onyx-black",
+                "https://shop.ledger.com/products/ledger-nano-s-plus/matte-black",
                 "_blank"
               )
             }
@@ -64,9 +54,8 @@ const LedgerNanoX: React.FC = () => (
             Description
           </Typography>
           <Typography fontSize={12}>
-            The next level hardware wallet: securely manage your crypto,
-            anywhere you go. The Ledger Nano X combines ease-of-use and
-            flexibility while ensuring the highest standard of crypto security.
+            Secure your assets and explore Web3 with the new Ledger Nano S Plus.
+            Take the iconic Ledger Nano S, then make it DeFi and NFT-friendly.
           </Typography>
         </Box>
         <Divider
@@ -89,11 +78,11 @@ const LedgerNanoX: React.FC = () => (
             </Typography>
 
             <Typography component="li" fontSize={12}>
-              USB Type C + Bluetooth Connectivity
+              USB Type C
             </Typography>
 
             <Typography component="li" fontSize={12}>
-              100mAh battery
+              No battery
             </Typography>
 
             <Typography component="li" fontSize={12}>
@@ -106,4 +95,4 @@ const LedgerNanoX: React.FC = () => (
   </TitleCard>
 );
 
-export { LedgerNanoX };
+export { LedgerNanoSPlus };

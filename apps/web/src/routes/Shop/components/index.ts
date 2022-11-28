@@ -1,4 +1,4 @@
 export * from "./HardwareWallet";
-export * from "./LedgerNanoS";
+export * from "./LedgerNanoSPlus";
 export * from "./LedgerNanoX";
 export * from "./Welcome";

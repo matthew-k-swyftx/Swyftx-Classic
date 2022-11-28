@@ -3,7 +3,7 @@ import { Grid } from "@mui/material";
 import { Page } from "@mklem92/swyftx-classic-ui";
 import {
   HardwareWallet,
-  LedgerNanoS,
+  LedgerNanoSPlus,
   LedgerNanoX,
   Welcome,
 } from "./components";
@@ -22,7 +22,7 @@ const Shop: React.FC = () => {
           <LedgerNanoX />
         </Grid>
         <Grid item xs={12} md={6}>
-          <LedgerNanoS />
+          <LedgerNanoSPlus />
         </Grid>
       </Grid>
     </Page>
