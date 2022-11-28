@@ -19,7 +19,7 @@ const LedgerNanoX: React.FC = () => (
         Recommended
       </Typography>
     </Stack>
-    <Stack direction="row" alignItems="center" height="100%">
+    <Stack direction="row" alignItems="flex-start" height="100%">
       <Stack direction="row" alignItems="center" width="100%" marginTop={1}>
         <Box
           component="img"

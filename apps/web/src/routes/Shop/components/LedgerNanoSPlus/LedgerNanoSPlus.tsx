@@ -9,8 +9,8 @@ import { TitleCard } from "@mklem92/swyftx-classic-ui";
 
 const LedgerNanoSPlus: React.FC = () => (
   <TitleCard title="Ledger Nano S Plus" icon={<WalletOutlined />}>
-    <Stack direction="row" alignItems="center" height="100%">
-      <Stack direction="row" alignItems="center" width="100%" marginTop={1}>
+    <Stack direction="row" alignItems="flex-start" height="100%">
+      <Stack direction="row" alignItems="center" width="100%" marginTop={2}>
         <Box
           component="img"
           src="/ledger_nano_s_plus.webp"
