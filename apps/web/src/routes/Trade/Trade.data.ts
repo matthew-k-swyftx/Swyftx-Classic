@@ -3,7 +3,10 @@ import { PageTab } from "@mklem92/swyftx-classic-ui";
 const TradeTabs = (code: string): PageTab[] => [
   { label: "Buy", path: `/trade/${code}/buy` },
   { label: "Sell", path: `/trade/${code}/sell` },
+  { label: "Swap", path: `/trade/${code}/swap` },
+  { label: "Earn", path: `/trade/${code}/earn` },
   { label: "Charts", path: `/trade/${code}/charts` },
+  { label: "Alerts", path: `/trade/${code}/alerts` },
   { label: "Orders", path: `/trade/${code}/orders` },
   { label: "Deposit", path: `/trade/${code}/deposit` },
   { label: "Withdraw", path: `/trade/${code}/withdraw` },

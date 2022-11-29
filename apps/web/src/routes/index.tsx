@@ -1,5 +1,7 @@
-import { createBrowserRouter, Navigate, RouteObject } from "react-router-dom";
-import { AppLayout } from "../components/layout";
+import { Navigate, RouteObject } from "react-router-dom";
+
+import { AppLayout } from "@mklem92/swyftx-classic-ui";
+
 import { AssetListRoutes } from "./AssetList/AssetList.routes";
 import { BundlesRoutes } from "./Bundles/Bundles.routes";
 import { DashboardRoutes } from "./Dashboard/Dashboard.routes";

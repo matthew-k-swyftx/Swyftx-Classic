@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  "include": ["src", "../../packages/swyftx-classic-ui/src/components/Layout/AppLayout.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

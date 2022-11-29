@@ -12,13 +12,16 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mklem92/swyftx-api": "*",
+    "@mklem92/swyftx-logic": "*",
     "@mklem92/swyftx-classic-ui": "*",
     "@mui/material": "^5.10.15",
     "@mui/icons-material": "^5.10.15",
     "big.js": "^6.2.1",
+    "cryptocurrency-icons": "^0.18.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
+    "react-use": "^17.4.0",
     "sass": "^1.56.1"
   },
   "devDependencies": {

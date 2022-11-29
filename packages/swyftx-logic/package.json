@@ -1,0 +1,25 @@
+{
+  "name": "@mklem92/swyftx-logic",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "TIMING=1 eslint \"**/*.ts*\"",
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "@mklem92/tsconfig": "*",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@mklem92/swyftx-api": "*",
+    "react": "^18.2.0",
+    "react-use": "^17.4.0",
+    "react-router-dom": "^6.4.3"
+  }
+}

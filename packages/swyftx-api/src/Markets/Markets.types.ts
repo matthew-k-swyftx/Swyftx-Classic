@@ -4,8 +4,17 @@ export enum LiveRateAsset {
   USD = 36,
 }
 
-export type Profile = {
-  dob: number;
+export type LiveRate = {
+  askPrice: string;
+  bidPrice: string;
+  buyLiquidityFlag: boolean;
+  dailyPriceChange: string;
+  midPrice: string;
+  sellLiquidityFlag: boolean;
+};
+
+export type LiveRatesResponse = {
+  [assetId: number]: LiveRate;
 };
 
 export type GetMarketAssetsResponse = {

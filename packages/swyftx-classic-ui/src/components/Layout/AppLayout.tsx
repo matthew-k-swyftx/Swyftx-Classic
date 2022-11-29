@@ -1,7 +1,9 @@
-import { MarketTicker, SideMenu } from "@mklem92/swyftx-classic-ui";
-import { Box, Grid, Stack } from "@mui/material";
 import React from "react";
 import { Outlet } from "react-router-dom";
+import { Box, Grid, Stack } from "@mui/material";
+
+import { MarketTicker } from "./MarketTicker";
+import { SideMenu } from "./SideMenu";
 
 const AppLayout: React.FC = () => {
   return (

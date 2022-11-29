@@ -4,4 +4,7 @@ export * from "./TradeDeposit";
 export * from "./TradeInfo";
 export * from "./TradeOrders";
 export * from "./TradeSell";
+export * from "./TradeSwap";
 export * from "./TradeWithdraw";
+export * from "./TradeEarn";
+export * from "./TradeAlerts";

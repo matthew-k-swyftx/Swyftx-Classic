@@ -5,13 +5,14 @@ import {
   GetMarketsBasicInfoResponse,
   GetMarketsDetailedInfoResponse,
   LiveRateAsset,
+  LiveRatesResponse,
 } from "./Markets.types";
 
 const useSwyftxMarkets = (token?: string) => {
   const { get } = useBaseRequest(token);
 
   const GetLiveRates = useCallback(
-    (asset: LiveRateAsset) => get<any>(`live-rates/${asset}/`),
+    (asset: LiveRateAsset) => get<LiveRatesResponse>(`live-rates/${asset}/`),
     [get]
   );
 

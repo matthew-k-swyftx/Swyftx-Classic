@@ -1,7 +1,23 @@
+export type ProfileCurrency = {
+  id: number;
+  code: string;
+};
+
 export type Profile = {
-  dob: number;
+  currency: ProfileCurrency;
+};
+
+export type User = {
+  ipAddress: string;
+  profile: Profile;
 };
 
 export type GetProfileResponse = {
-  profile: Profile;
+  user: User;
+};
+
+export type GetProfileBalancesResponse = {
+  assetId: number;
+  availableBalance: string;
+  stakingBalance: string;
 };

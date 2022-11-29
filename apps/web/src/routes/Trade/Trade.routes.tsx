@@ -1,11 +1,14 @@
 import { Navigate, RouteObject } from "react-router-dom";
 import {
   TradeBuy,
+  TradeSell,
+  TradeSwap,
+  TradeEarn,
   TradeCharts,
+  TradeAlerts,
   TradeDeposit,
   TradeInfo,
   TradeOrders,
-  TradeSell,
   TradeWithdraw,
 } from "./subroutes";
 
@@ -25,8 +28,20 @@ const TradeRoutes: RouteObject[] = [
         element: <TradeSell />,
       },
       {
+        path: "swap",
+        element: <TradeSwap />,
+      },
+      {
+        path: "earn",
+        element: <TradeEarn />,
+      },
+      {
         path: "charts",
         element: <TradeCharts />,
+      },
+      {
+        path: "alerts",
+        element: <TradeAlerts />,
       },
       {
         path: "orders",

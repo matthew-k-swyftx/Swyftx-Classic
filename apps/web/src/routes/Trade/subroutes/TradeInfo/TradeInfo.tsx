@@ -24,7 +24,6 @@ const TradeInfo: React.FC = () => {
       if (!code) return;
 
       const resp = await client.Markets.GetDetailedInfoForAsset(code);
-      console.log(resp);
       if (resp) setDetails(resp[0]);
     };
 
